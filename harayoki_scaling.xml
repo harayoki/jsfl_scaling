@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<dialog buttons="accept, cancel"  title="複数のインスタンスをおのおの拡大縮小する" >
+<label value="拡大方法" />
+<radiogroup id="method">
+  <hbox>
+    <radio label="相対" value="mutual"/>
+    <radio label="絶対" value="absolute"/>
+  </hbox>
+</radiogroup>
+<label value="x 拡大率(%)" />
+<textbox id="percentageX" value="100"/>
+<label value="y 拡大率(%) 未設定の場合xと同じ" />
+<textbox id="percentageY" value=""/>
+</dialog>
